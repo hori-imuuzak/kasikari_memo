@@ -7,8 +7,8 @@ import 'package:kasikari_memo/splash.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  final Firestore firestore = Firestore();
-  await firestore.settings(timestampsInSnapshotsEnabled: true);
+//  final Firestore firestore = Firestore();
+//  await firestore.settings(timestampsInSnapshotsEnabled: true);
 
   runApp(MyApp());
 }
@@ -37,6 +37,15 @@ class _MyList extends State<List> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("リスト画面"),
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(Icons.exit_to_app),
+              onPressed: () {
+                print("Login");
+                showBasicDialog(context);
+              },
+            )
+          ]
         ),
         body: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -64,6 +73,13 @@ class _MyList extends State<List> {
                 )
               );
             }));
+  }
+
+  void showBasicDialog(BuildContext context) {
+    final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+    String email, password;
+    // TODO Splash()でAuthしているので微妙な設計
+    // TODO 認証処理を別モジュールへ出してみる
   }
 
   Widget _buildListItem(BuildContext context, DocumentSnapshot document) {

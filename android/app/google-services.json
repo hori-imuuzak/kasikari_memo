@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "949165302028",
+    "firebase_url": "https://kasikari-memo-e6eae.firebaseio.com",
+    "project_id": "kasikari-memo-e6eae",
+    "storage_bucket": "kasikari-memo-e6eae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949165302028:android:bc8cf0aadd469491d8a929",
+        "android_client_info": {
+          "package_name": "imuuzak.com.example.kasikari_memo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949165302028-3iuq0akf5gjn4ig6hm6pee83m9a5cmvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBoZPcBzoMwHY0-Fo3XeWCsXEfbb6ZD6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949165302028-3iuq0akf5gjn4ig6hm6pee83m9a5cmvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>949165302028-t4hb2p185ak3du6nmgp8vrf4eqnfs2qp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.949165302028-t4hb2p185ak3du6nmgp8vrf4eqnfs2qp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYC1Rccy1IkntcqtybodduhOwRlXl2eEQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>949165302028</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>imuuzak.com.example.kasikiriMemo</string>
+	<key>PROJECT_ID</key>
+	<string>kasikari-memo-e6eae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kasikari-memo-e6eae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:949165302028:ios:00222a37aa0df7bfd8a929</string>
+	<key>DATABASE_URL</key>
+	<string>https://kasikari-memo-e6eae.firebaseio.com</string>
+</dict>
+</plist>

@@ -3,8 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Splash extends StatelessWidget {
-  FirebaseUser firebaseUser;
-
   @override
   Widget build(BuildContext context) {
     _getUser(context);
@@ -17,10 +15,9 @@ class Splash extends StatelessWidget {
 
   void _getUser(BuildContext context) async {
     try {
-      firebaseUser = await FirebaseAuth.instance.currentUser();
+      final firebaseUser = await FirebaseAuth.instance.currentUser();
       if (firebaseUser == null) {
         await FirebaseAuth.instance.signInAnonymously();
-        firebaseUser = await FirebaseAuth.instance.currentUser();
       }
 
       Navigator.pushReplacementNamed(context, "/list");
